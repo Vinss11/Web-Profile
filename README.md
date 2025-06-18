@@ -18,6 +18,5 @@ The site includes:
 
 ## 📚 Course Information
 **Course Name**: Manajemen Teknologi Informasi  
-**University Assignment**: Yes  
 **Student**: Davin Ammar Muhammad  
 **NIM**: 22513031
