@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Hello World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .typewriter h1 {
+        overflow: hidden;
+        border-right: 2px solid #fff;
+        white-space: nowrap;
+        animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white h-screen flex items-center justify-center px-6">
+    <div class="flex flex-col md:flex-row items-center gap-12 max-w-6xl mx-auto">
+      <!-- Text Section -->
+      <div class="text-center md:text-left max-w-xl">
+        <div class="typewriter">
+          <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm Davin Ammar M</h1>
+        </div>
+        <h2 class="text-xl text-gray-400 mt-4">22523031</h2>
+        <h3 class="text-lg text-gray-500 mt-2">Full Stack Web Developer | Taekwondo Athlete | Mechanical Keyboard Enthusiast</h3>
+      </div>
+
+      <!-- Image Section -->
+      <div class="transform -translate-y-32">
+        <img src="images/image.png" alt="Davin Ammar Muhammad" class="max-w-xs md:max-w-sm object-contain" />
+      </div>
+    </div>
+  </body>
+</html>
